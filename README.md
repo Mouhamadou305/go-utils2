@@ -15,7 +15,7 @@ with `area:go-utils`.
 Get the latest version using
 
 ```console
-go get github.com/keptn/go-utils
+go get github.com/Mouhamadou305/go-utils
 ```
 
 Also consider browsing our [Releases Page](https://github.com/keptn/go-utils/releases) to find out about all releases.
