@@ -9,7 +9,7 @@ require (
 	github.com/cloudevents/sdk-go/v2 v2.13.0
 	github.com/google/uuid v1.3.0
 	github.com/kelseyhightower/envconfig v1.4.0
-	github.com/Mouhamadou305/go-utils2 v0.20.1
+	github.com/Mouhamadou305/go-utils2 v0.0.2
 	github.com/nats-io/nats-server/v2 v2.9.15
 	github.com/nats-io/nats.go v1.24.0
 	github.com/sirupsen/logrus v1.9.0
