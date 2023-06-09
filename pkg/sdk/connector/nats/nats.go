@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Mouhamadou305/go-utils2/pkg/api/models"
+	"github.com/Mouhamadou305/go-utils2/pkg/sdk/connector/logger"
 	"github.com/google/uuid"
-	"github.com/keptn/go-utils/pkg/api/models"
-	"github.com/keptn/go-utils/pkg/sdk/connector/logger"
 	"github.com/nats-io/nats.go"
 )
 

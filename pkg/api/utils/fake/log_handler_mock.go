@@ -5,7 +5,7 @@ package utils_mock
 
 import (
 	"context"
-	"github.com/keptn/go-utils/pkg/api/models"
+	"github.com/Mouhamadou305/go-utils2/pkg/api/models"
 	"sync"
 )
 

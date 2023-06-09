@@ -2,9 +2,9 @@ package main
 
 import (
 	"bytes"
-	api "github.com/keptn/go-utils/pkg/api/utils"
-	"github.com/keptn/go-utils/pkg/lib/v0_2_0"
-	"github.com/keptn/go-utils/pkg/sdk"
+	api "github.com/Mouhamadou305/go-utils2/pkg/api/utils"
+	"github.com/Mouhamadou305/go-utils2/pkg/lib/v0_2_0"
+	"github.com/Mouhamadou305/go-utils2/pkg/sdk"
 	"github.com/sirupsen/logrus"
 	"html/template"
 )

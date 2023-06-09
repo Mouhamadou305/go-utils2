@@ -2,10 +2,10 @@ package nats_test
 
 import (
 	"encoding/json"
-	"github.com/keptn/go-utils/pkg/api/models"
-	"github.com/keptn/go-utils/pkg/common/strutils"
-	"github.com/keptn/go-utils/pkg/lib/v0_2_0"
-	nats2 "github.com/keptn/go-utils/pkg/sdk/connector/nats"
+	"github.com/Mouhamadou305/go-utils2/pkg/api/models"
+	"github.com/Mouhamadou305/go-utils2/pkg/common/strutils"
+	"github.com/Mouhamadou305/go-utils2/pkg/lib/v0_2_0"
+	nats2 "github.com/Mouhamadou305/go-utils2/pkg/sdk/connector/nats"
 	"github.com/nats-io/nats-server/v2/server"
 	natstest "github.com/nats-io/nats-server/v2/test"
 	"github.com/nats-io/nats.go"

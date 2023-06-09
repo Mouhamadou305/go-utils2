@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/keptn/go-utils/pkg/api/models"
-	v2 "github.com/keptn/go-utils/pkg/api/utils/v2"
-	"github.com/keptn/go-utils/pkg/common/httputils"
+	"github.com/Mouhamadou305/go-utils2/pkg/api/models"
+	v2 "github.com/Mouhamadou305/go-utils2/pkg/api/utils/v2"
+	"github.com/Mouhamadou305/go-utils2/pkg/common/httputils"
 )
 
 const uniformRegistrationBaseURL = "uniform/registration"

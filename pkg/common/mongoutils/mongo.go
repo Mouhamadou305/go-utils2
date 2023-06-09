@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/keptn/go-utils/pkg/common/strutils"
+	"github.com/Mouhamadou305/go-utils2/pkg/common/strutils"
 	logger "github.com/sirupsen/logrus"
 
 	"os"

@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/keptn/go-utils/config"
-	"github.com/keptn/go-utils/pkg/api/models"
-	api "github.com/keptn/go-utils/pkg/api/utils"
-	"github.com/keptn/go-utils/pkg/common/strutils"
-	"github.com/keptn/go-utils/pkg/lib/keptn"
+	"github.com/Mouhamadou305/go-utils2/config"
+	"github.com/Mouhamadou305/go-utils2/pkg/api/models"
+	api "github.com/Mouhamadou305/go-utils2/pkg/api/utils"
+	"github.com/Mouhamadou305/go-utils2/pkg/common/strutils"
+	"github.com/Mouhamadou305/go-utils2/pkg/lib/keptn"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 

@@ -4,9 +4,9 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/Mouhamadou305/go-utils2/pkg/lib/keptn"
+	"github.com/Mouhamadou305/go-utils2/pkg/lib/v0_2_0/fake"
 	cloudevents "github.com/cloudevents/sdk-go/v2"
-	"github.com/keptn/go-utils/pkg/lib/keptn"
-	"github.com/keptn/go-utils/pkg/lib/v0_2_0/fake"
 	"github.com/stretchr/testify/assert"
 )
 

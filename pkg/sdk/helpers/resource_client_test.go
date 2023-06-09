@@ -3,10 +3,10 @@ package keptn
 import (
 	"context"
 	"fmt"
-	"github.com/keptn/go-utils/pkg/api/models"
-	v2 "github.com/keptn/go-utils/pkg/api/utils/v2"
-	fake "github.com/keptn/go-utils/pkg/api/utils/v2/fake"
-	"github.com/keptn/go-utils/pkg/common/strutils"
+	"github.com/Mouhamadou305/go-utils2/pkg/api/models"
+	v2 "github.com/Mouhamadou305/go-utils2/pkg/api/utils/v2"
+	fake "github.com/Mouhamadou305/go-utils2/pkg/api/utils/v2/fake"
+	"github.com/Mouhamadou305/go-utils2/pkg/common/strutils"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

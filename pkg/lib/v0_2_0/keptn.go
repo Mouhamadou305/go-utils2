@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/Mouhamadou305/go-utils2/config"
+	api "github.com/Mouhamadou305/go-utils2/pkg/api/utils"
+	"github.com/Mouhamadou305/go-utils2/pkg/lib/keptn"
 	cloudevents "github.com/cloudevents/sdk-go/v2"
 	"github.com/google/uuid"
-	"github.com/keptn/go-utils/config"
-	api "github.com/keptn/go-utils/pkg/api/utils"
-	"github.com/keptn/go-utils/pkg/lib/keptn"
 	"gopkg.in/yaml.v3"
 )
 

@@ -4,14 +4,14 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/keptn/go-utils/pkg/sdk/connector/types"
+	"github.com/Mouhamadou305/go-utils2/pkg/sdk/connector/types"
 	"reflect"
 	"sort"
 	"sync"
 
-	"github.com/keptn/go-utils/pkg/api/models"
-	"github.com/keptn/go-utils/pkg/sdk/connector/logger"
-	natseventsource "github.com/keptn/go-utils/pkg/sdk/connector/nats"
+	"github.com/Mouhamadou305/go-utils2/pkg/api/models"
+	"github.com/Mouhamadou305/go-utils2/pkg/sdk/connector/logger"
+	natseventsource "github.com/Mouhamadou305/go-utils2/pkg/sdk/connector/nats"
 	"github.com/nats-io/nats.go"
 )
 

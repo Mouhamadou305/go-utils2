@@ -1,11 +1,11 @@
-module github.com/keptn/go-utils/examples/go-sdk
+module github.com/Mouhamadou305/go-utils2/examples/go-sdk
 
 go 1.18
 
-replace github.com/keptn/go-utils => ../../../go-utils
+replace github.com/Mouhamadou305/go-utils2 => ../../../go-utils
 
 require (
-	github.com/keptn/go-utils v0.0.0-00010101000000-000000000000
+	github.com/Mouhamadou305/go-utils2 v0.0.0-00010101000000-000000000000
 	github.com/sirupsen/logrus v1.8.1
 )
 

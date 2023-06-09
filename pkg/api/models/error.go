@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/keptn/go-utils/pkg/common/strutils"
+	"github.com/Mouhamadou305/go-utils2/pkg/common/strutils"
 )
 
 // Error error

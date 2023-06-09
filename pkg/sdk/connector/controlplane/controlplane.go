@@ -4,13 +4,13 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/keptn/go-utils/pkg/api/models"
-	"github.com/keptn/go-utils/pkg/sdk/connector/eventmatcher"
-	"github.com/keptn/go-utils/pkg/sdk/connector/eventsource"
-	"github.com/keptn/go-utils/pkg/sdk/connector/logforwarder"
-	"github.com/keptn/go-utils/pkg/sdk/connector/logger"
-	"github.com/keptn/go-utils/pkg/sdk/connector/subscriptionsource"
-	"github.com/keptn/go-utils/pkg/sdk/connector/types"
+	"github.com/Mouhamadou305/go-utils2/pkg/api/models"
+	"github.com/Mouhamadou305/go-utils2/pkg/sdk/connector/eventmatcher"
+	"github.com/Mouhamadou305/go-utils2/pkg/sdk/connector/eventsource"
+	"github.com/Mouhamadou305/go-utils2/pkg/sdk/connector/logforwarder"
+	"github.com/Mouhamadou305/go-utils2/pkg/sdk/connector/logger"
+	"github.com/Mouhamadou305/go-utils2/pkg/sdk/connector/subscriptionsource"
+	"github.com/Mouhamadou305/go-utils2/pkg/sdk/connector/types"
 	"log"
 	"os"
 	"os/signal"
@@ -62,7 +62,7 @@ func WithLogger(logger logger.Logger) func(plane *ControlPlane) {
 //
 // This call is blocking.
 //
-//If you want to start the controlPlane component with an own context you need to call the Register(ctx,integration)
+// If you want to start the controlPlane component with an own context you need to call the Register(ctx,integration)
 // method on your own
 func RunWithGracefulShutdown(controlPlane *ControlPlane, integration Integration, shutdownTimeout time.Duration) error {
 	ctxShutdown, cancel := context.WithCancel(context.Background())

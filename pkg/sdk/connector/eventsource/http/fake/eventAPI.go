@@ -4,8 +4,8 @@
 package fake
 
 import (
-	"github.com/keptn/go-utils/pkg/api/models"
-	api "github.com/keptn/go-utils/pkg/api/utils"
+	"github.com/Mouhamadou305/go-utils2/pkg/api/models"
+	api "github.com/Mouhamadou305/go-utils2/pkg/api/utils"
 	"sync"
 )
 

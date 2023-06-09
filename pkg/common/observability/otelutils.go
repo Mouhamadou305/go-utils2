@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/url"
 
-	"github.com/keptn/go-utils/pkg/common/osutils"
+	"github.com/Mouhamadou305/go-utils2/pkg/common/osutils"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc"
 	"go.opentelemetry.io/otel/propagation"

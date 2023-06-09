@@ -2,7 +2,7 @@ package keptn
 
 import (
 	"context"
-	"github.com/keptn/go-utils/pkg/common/timeutils"
+	"github.com/Mouhamadou305/go-utils2/pkg/common/timeutils"
 	"github.com/stretchr/testify/assert"
 	"net"
 	"net/http"

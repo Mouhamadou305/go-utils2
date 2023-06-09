@@ -1,8 +1,8 @@
 package eventmatcher
 
 import (
-	"github.com/keptn/go-utils/pkg/api/models"
-	"github.com/keptn/go-utils/pkg/lib/v0_2_0"
+	"github.com/Mouhamadou305/go-utils2/pkg/api/models"
+	"github.com/Mouhamadou305/go-utils2/pkg/lib/v0_2_0"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

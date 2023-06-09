@@ -2,10 +2,10 @@ package http
 
 import (
 	"fmt"
+	"github.com/Mouhamadou305/go-utils2/pkg/api/models"
+	api "github.com/Mouhamadou305/go-utils2/pkg/api/utils"
+	"github.com/Mouhamadou305/go-utils2/pkg/sdk/connector/logger"
 	"github.com/avast/retry-go"
-	"github.com/keptn/go-utils/pkg/api/models"
-	api "github.com/keptn/go-utils/pkg/api/utils"
-	"github.com/keptn/go-utils/pkg/sdk/connector/logger"
 	"time"
 )
 

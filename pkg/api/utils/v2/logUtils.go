@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Mouhamadou305/go-utils2/pkg/api/models"
+	"github.com/Mouhamadou305/go-utils2/pkg/common/httputils"
 	"github.com/benbjohnson/clock"
-	"github.com/keptn/go-utils/pkg/api/models"
-	"github.com/keptn/go-utils/pkg/common/httputils"
 )
 
 const v1LogPath = "/v1/log"

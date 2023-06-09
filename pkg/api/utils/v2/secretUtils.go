@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/keptn/go-utils/pkg/api/models"
-	"github.com/keptn/go-utils/pkg/common/httputils"
+	"github.com/Mouhamadou305/go-utils2/pkg/api/models"
+	"github.com/Mouhamadou305/go-utils2/pkg/common/httputils"
 )
 
 const secretServiceBaseURL = "secrets"

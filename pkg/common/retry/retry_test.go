@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/keptn/go-utils/pkg/common/retry"
+	"github.com/Mouhamadou305/go-utils2/pkg/common/retry"
 	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"

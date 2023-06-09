@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Mouhamadou305/go-utils2/pkg/api/models"
 	"github.com/benbjohnson/clock"
-	"github.com/keptn/go-utils/pkg/api/models"
 	"github.com/stretchr/testify/require"
 )
 

@@ -2,8 +2,8 @@ package api
 
 import (
 	"fmt"
-	oauthutils "github.com/keptn/go-utils/pkg/common/oauth2"
-	"github.com/keptn/go-utils/pkg/sdk/internal/config"
+	oauthutils "github.com/Mouhamadou305/go-utils2/pkg/common/oauth2"
+	"github.com/Mouhamadou305/go-utils2/pkg/sdk/internal/config"
 	"github.com/stretchr/testify/assert"
 	"net/http"
 	"net/http/httptest"

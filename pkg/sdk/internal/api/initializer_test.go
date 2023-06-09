@@ -2,10 +2,10 @@ package api
 
 import (
 	"fmt"
-	keptnapi "github.com/keptn/go-utils/pkg/api/utils"
-	keptnapiv2 "github.com/keptn/go-utils/pkg/api/utils/v2"
-	"github.com/keptn/go-utils/pkg/sdk/connector/logger"
-	"github.com/keptn/go-utils/pkg/sdk/internal/config"
+	keptnapi "github.com/Mouhamadou305/go-utils2/pkg/api/utils"
+	keptnapiv2 "github.com/Mouhamadou305/go-utils2/pkg/api/utils/v2"
+	"github.com/Mouhamadou305/go-utils2/pkg/sdk/connector/logger"
+	"github.com/Mouhamadou305/go-utils2/pkg/sdk/internal/config"
 	"github.com/stretchr/testify/require"
 	"net/http"
 	"testing"

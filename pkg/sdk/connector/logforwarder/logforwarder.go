@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/keptn/go-utils/pkg/api/models"
-	api "github.com/keptn/go-utils/pkg/api/utils"
-	keptnv2 "github.com/keptn/go-utils/pkg/lib/v0_2_0"
-	"github.com/keptn/go-utils/pkg/sdk/connector/logger"
+	"github.com/Mouhamadou305/go-utils2/pkg/api/models"
+	api "github.com/Mouhamadou305/go-utils2/pkg/api/utils"
+	keptnv2 "github.com/Mouhamadou305/go-utils2/pkg/lib/v0_2_0"
+	"github.com/Mouhamadou305/go-utils2/pkg/sdk/connector/logger"
 )
 
 //go:generate moq -pkg fake -skip-ensure -out ./fake/logapi.go . logAPI:LogAPIMock

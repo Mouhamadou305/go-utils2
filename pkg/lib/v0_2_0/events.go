@@ -8,13 +8,13 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Mouhamadou305/go-utils2/config"
+	"github.com/Mouhamadou305/go-utils2/pkg/api/models"
+	"github.com/Mouhamadou305/go-utils2/pkg/common/strutils"
+	"github.com/Mouhamadou305/go-utils2/pkg/lib/keptn"
 	"github.com/cloudevents/sdk-go/v2/client"
 	"github.com/cloudevents/sdk-go/v2/protocol"
 	"github.com/google/uuid"
-	"github.com/keptn/go-utils/config"
-	"github.com/keptn/go-utils/pkg/api/models"
-	"github.com/keptn/go-utils/pkg/common/strutils"
-	"github.com/keptn/go-utils/pkg/lib/keptn"
 	"github.com/sirupsen/logrus"
 
 	ceObs "github.com/cloudevents/sdk-go/observability/opentelemetry/v2/client"

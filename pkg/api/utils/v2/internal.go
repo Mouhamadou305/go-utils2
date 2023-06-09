@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/keptn/go-utils/pkg/api/models"
+	"github.com/Mouhamadou305/go-utils2/pkg/api/models"
 )
 
 // InternalAPISet is an implementation of KeptnInterface

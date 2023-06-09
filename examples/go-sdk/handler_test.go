@@ -2,9 +2,9 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/keptn/go-utils/pkg/api/models"
-	keptnv2 "github.com/keptn/go-utils/pkg/lib/v0_2_0"
-	"github.com/keptn/go-utils/pkg/sdk"
+	"github.com/Mouhamadou305/go-utils2/pkg/api/models"
+	keptnv2 "github.com/Mouhamadou305/go-utils2/pkg/lib/v0_2_0"
+	"github.com/Mouhamadou305/go-utils2/pkg/sdk"
 	"io/ioutil"
 	"log"
 	"testing"

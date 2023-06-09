@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/keptn/go-utils/pkg/sdk"
+	"github.com/Mouhamadou305/go-utils2/pkg/sdk"
 	"github.com/sirupsen/logrus"
 	"log"
 )

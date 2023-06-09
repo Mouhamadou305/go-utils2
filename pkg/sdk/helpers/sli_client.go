@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	keptnapi "github.com/keptn/go-utils/pkg/lib/keptn"
+	keptnapi "github.com/Mouhamadou305/go-utils2/pkg/lib/keptn"
 	"gopkg.in/yaml.v3"
 )
 

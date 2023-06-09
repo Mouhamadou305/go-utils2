@@ -6,12 +6,12 @@ import (
 	"math"
 	"testing"
 
-	"github.com/keptn/go-utils/pkg/sdk/internal/config"
+	"github.com/Mouhamadou305/go-utils2/pkg/sdk/internal/config"
 
+	"github.com/Mouhamadou305/go-utils2/pkg/api/models"
+	"github.com/Mouhamadou305/go-utils2/pkg/common/strutils"
+	"github.com/Mouhamadou305/go-utils2/pkg/lib/v0_2_0"
 	"github.com/google/uuid"
-	"github.com/keptn/go-utils/pkg/api/models"
-	"github.com/keptn/go-utils/pkg/common/strutils"
-	"github.com/keptn/go-utils/pkg/lib/v0_2_0"
 	"github.com/stretchr/testify/require"
 )
 

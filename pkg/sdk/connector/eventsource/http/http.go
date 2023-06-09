@@ -3,11 +3,11 @@ package http
 import (
 	"context"
 	"errors"
+	"github.com/Mouhamadou305/go-utils2/pkg/api/models"
+	api "github.com/Mouhamadou305/go-utils2/pkg/api/utils"
+	"github.com/Mouhamadou305/go-utils2/pkg/sdk/connector/logger"
+	"github.com/Mouhamadou305/go-utils2/pkg/sdk/connector/types"
 	"github.com/benbjohnson/clock"
-	"github.com/keptn/go-utils/pkg/api/models"
-	api "github.com/keptn/go-utils/pkg/api/utils"
-	"github.com/keptn/go-utils/pkg/sdk/connector/logger"
-	"github.com/keptn/go-utils/pkg/sdk/connector/types"
 	"sync"
 	"time"
 )

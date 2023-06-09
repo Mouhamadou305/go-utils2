@@ -3,7 +3,7 @@ package oauthutils
 import (
 	"context"
 	"fmt"
-	"github.com/keptn/go-utils/pkg/common/testutils"
+	"github.com/Mouhamadou305/go-utils2/pkg/common/testutils"
 	"github.com/stretchr/testify/assert"
 	"io"
 	"net/http"

@@ -6,7 +6,7 @@ import (
 
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/keptn/go-utils/pkg/common/fileutils"
+	"github.com/Mouhamadou305/go-utils2/pkg/common/fileutils"
 
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"

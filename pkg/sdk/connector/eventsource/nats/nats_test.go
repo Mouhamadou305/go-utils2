@@ -4,14 +4,14 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/keptn/go-utils/pkg/sdk/connector/types"
+	"github.com/Mouhamadou305/go-utils2/pkg/sdk/connector/types"
 	"sync"
 	"testing"
 	"time"
 
-	"github.com/keptn/go-utils/pkg/api/models"
-	"github.com/keptn/go-utils/pkg/common/strutils"
-	nats2 "github.com/keptn/go-utils/pkg/sdk/connector/nats"
+	"github.com/Mouhamadou305/go-utils2/pkg/api/models"
+	"github.com/Mouhamadou305/go-utils2/pkg/common/strutils"
+	nats2 "github.com/Mouhamadou305/go-utils2/pkg/sdk/connector/nats"
 	"github.com/nats-io/nats.go"
 	"github.com/stretchr/testify/require"
 )

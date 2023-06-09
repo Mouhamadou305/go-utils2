@@ -3,9 +3,9 @@ package eventmatcher
 import (
 	"strings"
 
-	"github.com/keptn/go-utils/pkg/api/models"
-	"github.com/keptn/go-utils/pkg/common/sliceutils"
-	"github.com/keptn/go-utils/pkg/lib/v0_2_0"
+	"github.com/Mouhamadou305/go-utils2/pkg/api/models"
+	"github.com/Mouhamadou305/go-utils2/pkg/common/sliceutils"
+	"github.com/Mouhamadou305/go-utils2/pkg/lib/v0_2_0"
 )
 
 // EventMatcher is used to check whether an event contains is containing information

@@ -3,8 +3,8 @@ package api
 import (
 	"context"
 	"fmt"
-	"github.com/keptn/go-utils/pkg/api/models"
-	"github.com/keptn/go-utils/pkg/common/timeutils"
+	"github.com/Mouhamadou305/go-utils2/pkg/api/models"
+	"github.com/Mouhamadou305/go-utils2/pkg/common/timeutils"
 	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"
