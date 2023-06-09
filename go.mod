@@ -1,4 +1,4 @@
-module github.com/Mouhamadou305/go-utils
+module github.com/Mouhamadou305/go-utils2
 
 go 1.18
 
