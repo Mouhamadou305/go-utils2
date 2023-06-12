@@ -108,7 +108,7 @@ func get(ctx context.Context, uri string, api APIService) ([]byte, int, string, 
 	req.Header.Set("Content-Type", "application/json")
 	//addAuthHeader(req, api)
 
-	new_body_content := "{NewContent: Test}"
+	new_body_content := ""
 	req.Body = ioutil.NopCloser(strings.NewReader(new_body_content))
 	
 	logger.Infof("REQ : %v", req)
