@@ -101,10 +101,7 @@ func getAndExpectSuccess(ctx context.Context, uri string, api APIService) ([]byt
 
 func get(ctx context.Context, uri string, api APIService) ([]byte, int, string, *models.Error) {
 
-	jsonBody := []byte(`{"client_message": "hello, server!"}`)
- 	bodyReader := bytes.NewReader(jsonBody)
-
-	req, err := http.NewRequestWithContext(ctx, "GET", uri, bodyReader)
+	req, err := http.NewRequestWithContext(ctx, "GET", uri, nil)
 	if err != nil {
 		return nil, 0, "", buildErrorResponse(err.Error())
 	}
@@ -114,6 +111,8 @@ func get(ctx context.Context, uri string, api APIService) ([]byte, int, string, 
 	logger.Infof("REQ : %v", req)
 
 	resp, err := api.getHTTPClient().Do(req)
+	logger.Infof("Resp : %v, Err : %v", resp, err)
+
 	if err != nil {
 		return nil, 0, "", buildErrorResponse(err.Error())
 	}
