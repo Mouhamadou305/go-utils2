@@ -106,7 +106,7 @@ func get(ctx context.Context, uri string, api APIService) ([]byte, int, string, 
 	if err != nil {
 		return nil, 0, "", buildErrorResponse(err.Error())
 	}
-	req.Header.Set("Content-Type", "application/json")
+	req.Header.Set("Content-Type", "text/plain; charset=utf-8")
 	//addAuthHeader(req, api)
 	
 	logger.Infof("REQ : %v", req)
