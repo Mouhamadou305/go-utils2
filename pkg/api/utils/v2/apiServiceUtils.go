@@ -7,10 +7,11 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
+	"strings"
 
 	"github.com/Mouhamadou305/go-utils2/pkg/api/models"
-	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 	logger "github.com/sirupsen/logrus"
+	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 )
 
 // APIService represents the interface for accessing the configuration service
@@ -106,6 +107,9 @@ func get(ctx context.Context, uri string, api APIService) ([]byte, int, string, 
 	}
 	req.Header.Set("Content-Type", "application/json")
 	//addAuthHeader(req, api)
+
+	new_body_content := "{NewContent: Test}"
+	req.Body = ioutil.NopCloser(strings.NewReader(new_body_content))
 	
 	logger.Infof("REQ : %v", req)
 
