@@ -5,10 +5,8 @@ import (
 	"context"
 	"crypto/tls"
 	"fmt"
-	"io"
 	"io/ioutil"
 	"net/http"
-	"strings"
 
 	"github.com/Mouhamadou305/go-utils2/pkg/api/models"
 	logger "github.com/sirupsen/logrus"
