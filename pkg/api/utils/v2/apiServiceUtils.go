@@ -106,16 +106,7 @@ func get(ctx context.Context, uri string, api APIService) ([]byte, int, string, 
 	}
 	req.Header.Set("Content-Type", "application/json")
 	//addAuthHeader(req, api)
-	logger.SetFormatter(&Formatter{
-		Fields: logger.Fields{
-			"service":      "splunk-service",
-			"eventId":      "7dbc47b8-a1db-4cb7-9f64-dd55d5563f67",
-			"keptnContext": "90051c47-edc7-4cb9-b32a-e4218ecf9ad7",
-		},
-		BuiltinFormatter: &logger.TextFormatter{},
-	})
-	logLevel, _:= logger.ParseLevel("LOG_LEVEL")
-	logger.SetLevel(logLevel)
+	
 	logger.Infof("REQ : %v", req)
 
 	resp, err := api.getHTTPClient().Do(req)
