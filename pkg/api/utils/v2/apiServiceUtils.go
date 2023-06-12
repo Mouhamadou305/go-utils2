@@ -5,6 +5,7 @@ import (
 	"context"
 	"crypto/tls"
 	"fmt"
+	"io"
 	"io/ioutil"
 	"net/http"
 	"strings"
@@ -101,15 +102,16 @@ func getAndExpectSuccess(ctx context.Context, uri string, api APIService) ([]byt
 }
 
 func get(ctx context.Context, uri string, api APIService) ([]byte, int, string, *models.Error) {
-	req, err := http.NewRequestWithContext(ctx, "GET", uri, nil)
+
+	jsonBody := []byte(`{"client_message": "hello, server!"}`)
+ 	bodyReader := bytes.NewReader(jsonBody)
+
+	req, err := http.NewRequestWithContext(ctx, "GET", uri, bodyReader)
 	if err != nil {
 		return nil, 0, "", buildErrorResponse(err.Error())
 	}
 	req.Header.Set("Content-Type", "application/json")
 	//addAuthHeader(req, api)
-
-	new_body_content := `{"sid": "10"}`
-	req.Body = ioutil.NopCloser(strings.NewReader(new_body_content))
 	
 	logger.Infof("REQ : %v", req)
 
