@@ -109,7 +109,7 @@ func get(ctx context.Context, uri string, api APIService) ([]byte, int, string, 
 	//addAuthHeader(req, api)
 	
 	logger.Infof("REQ : %v", req)
-
+	http.DefaultTransport.(*http.Transport).TLSClientConfig = &tls.Config{InsecureSkipVerify: true}
 	resp, err := api.getHTTPClient().Do(req)
 	logger.Infof("Resp : %v, Err : %v", resp, err)
 
