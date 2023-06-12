@@ -102,7 +102,7 @@ func getAndExpectSuccess(ctx context.Context, uri string, api APIService) ([]byt
 func get(ctx context.Context, uri string, api APIService) ([]byte, int, string, *models.Error) {
 
 	http.DefaultTransport.(*http.Transport).TLSClientConfig = &tls.Config{InsecureSkipVerify: true}
-	req, err := http.NewRequestWithContext(ctx, "GET", uri, nil)
+	req, err := http.NewRequest("GET", uri, nil)
 	if err != nil {
 		return nil, 0, "", buildErrorResponse(err.Error())
 	}
