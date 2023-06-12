@@ -102,12 +102,12 @@ func getAndExpectSuccess(ctx context.Context, uri string, api APIService) ([]byt
 func get(ctx context.Context, uri string, api APIService) ([]byte, int, string, *models.Error) {
 
 	http.DefaultTransport.(*http.Transport).TLSClientConfig = &tls.Config{InsecureSkipVerify: true}
-	req, err := http.NewRequest("GET", uri, nil)
+	req, err := http.NewRequestWithContext(ctx, "GET", uri, nil)
 	if err != nil {
 		return nil, 0, "", buildErrorResponse(err.Error())
 	}
-	req.Header.Set("Content-Type", "text/plain; charset=utf-8")
-	//addAuthHeader(req, api)
+	req.Header.Set("Content-Type", "application/json")
+	addAuthHeader(req, api)
 	
 	logger.Infof("REQ : %v", req)
 	
