@@ -108,8 +108,8 @@ func get(ctx context.Context, uri string, api APIService) ([]byte, int, string, 
 	}
 	req.Header.Set("Content-Type", "application/json")
 	addAuthHeader(req, api)
-	req.Proto= "HTTP/1.0"
-	req.ProtoMajor= 1
+	req.Proto= "HTTP/2.0"
+	req.ProtoMajor= 2
 	req.ProtoMinor= 0
 	logger.Infof("REQ : %v", req)
 	
